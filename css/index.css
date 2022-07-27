@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  background-image: url("../images/backcover.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 80vw;
+  margin: auto;
+}
+
+
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+}
+
+
+.left-section h1 {
+  font-size: 4rem;
+  color: #3e4794;
+  font-weight: 700;
+  font-family: "lato", sans-serif;
+  margin-top: 6rem;
+}
+
+
+.left-section h4 {
+  color: 758283;
+  font-size: 12px;
+  width: 22%;
+  line-height: 1.8;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+}
+
+
+.signin-btn {
+  background: linear-gradient(to right, #965cf2, #ff8adc);
+  color: #fff;
+  border: none;
+  border-radius: 7rem;
+  padding: 2px 5px;
+  font-size: 11px;
+}
+
+.learn-more-btn {
+  position: absolute;
+  font-size: 1rem;
+  background: linear-gradient(to right, #965cf2, #ff8adc);
+  color: #fff;
+  border: none;
+  padding: 7px 18px;
+  border-radius: 15rem;
+}
+
+
+
+[alt="intro-img"] {
+  position: absolute;
+  top: 3rem;
+  left: 31rem;
+  width: 34rem;
+}
+
+
+.vector-img {
+  position: relative;
+  top: 9rem;
+  left: 20rem;
+}
+
+
+.vector-dot {
+  position: relative;
+  top: 3rem;
+  left: 17rem;
+}
